@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+ul{
+    margin-block-end: 0px;
+}
+header{
+    background: linear-gradient(to bottom, blue, #0099ff);
+    display: flex;
+    justify-content: space-between;
+}
+#text1{
+    width: 700px;
+    height: 700px;
+    display: inline;
+    position: absolute;
+}
+h1{
+    margin:0px;
+    font-family: "shake";
+    font-size: 48px;
+    margin-left: 10px;
+}
+#milenarius{
+    margin: 0px 0px 0px 10px;
+    font-family: "blacklisted";
+}
+@font-face {
+    font-family: shake;
+    src: url(../tipografias/super_shake/Super\ Shake.ttf);
+}
+@font-face {
+    font-family: blacklisted;
+    src: url(../tipografias/blacklisted/Blacklisted.ttf);
+}
+#link{
+    list-style-type: none;
+}
+#link a{
+    text-decoration: none;
+    color: black;
+}
+#nav{
+    margin-right: 10px;
+}
+#bienv{
+    font-family: "blacklisted";
+    text-align: center;
+    font-size: 50px;
+}
+#p1 {
+    font-family: "shake";
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
+}
