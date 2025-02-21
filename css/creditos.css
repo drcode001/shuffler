@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px; 
+}
+header{
+    background-image: linear-gradient(to bottom, blue, #0099ff);
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+h1{
+    margin:0px;
+    margin-left: 10px;
+    font-family: "shake";
+    font-size: 48px;
+}
+@font-face {
+    font-family: shake;
+    src: url(../tipografias/super_shake/Super\ Shake.ttf);
+}
+@font-face {
+    font-family: blacklisted;
+    src: url(../tipografias/blacklisted/Blacklisted.ttf);
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: "Shake";
+    margin-left: 10px;
+}
+p{
+    font-family: "blacklisted";
+    margin-left: 10px;
+}
